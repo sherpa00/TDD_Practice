@@ -1,0 +1,18 @@
+{
+  "name": "tests_separation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:unit" : "jest --selectProjects unit",
+    "test:integration" : "jest --selectProjects integration",
+    "test:e2e" : "jest --selectProjects e2e"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
